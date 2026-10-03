@@ -102,4 +102,20 @@ the later steps again after it.
 
 ## Results
 
-See `results/comparison.md` after running the steps above.
+Test split, 80 events, synthetic data. HIKNet is the mean and standard deviation over
+5 training seeds; the SVM is a single deterministic fit. One test event is 1.25 points of
+accuracy, so small differences are within noise.
+
+| Metric      | SVM   | HIKNet (5 runs) |
+| ----------- | ----- | --------------- |
+| Accuracy    | 91.2% | 91.8 +/- 0.6%   |
+| Precision   | 94.6% | 92.0 +/- 0.9%   |
+| Specificity | 95.0% | 92.0 +/- 1.0%   |
+| Sensitivity | 87.5% | 91.5 +/- 1.2%   |
+| AUC ROC     | 0.937 | 0.978 +/- 0.002 |
+| AUC PR      | 0.962 | 0.980 +/- 0.002 |
+
+The two models tie on accuracy. HIKNet ranks events better (higher AUC), which is
+suggestive but not conclusive on 80 events. This differs from the paper, which reports a
+larger gap on real data. Running the steps above regenerates `results/comparison.md` and
+the figures.
