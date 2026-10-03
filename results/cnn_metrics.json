@@ -1,0 +1,116 @@
+{
+  "model": "HIKNet",
+  "n_runs": 5,
+  "selected_run": 3,
+  "n_train": 368,
+  "n_val": 79,
+  "n_test": 80,
+  "summary": {
+    "accuracy": {
+      "mean": 0.9175000000000001,
+      "std": 0.0061237243569579785
+    },
+    "precision": {
+      "mean": 0.9197185741088181,
+      "std": 0.00868247399014722
+    },
+    "specificity": {
+      "mean": 0.9199999999999999,
+      "std": 0.010000000000000009
+    },
+    "sensitivity": {
+      "mean": 0.915,
+      "std": 0.012247448713915901
+    },
+    "auc_roc": {
+      "mean": 0.97775,
+      "std": 0.0019999999999999758
+    },
+    "auc_pr": {
+      "mean": 0.9798715626579737,
+      "std": 0.002244922242991297
+    }
+  },
+  "runs": [
+    {
+      "accuracy": 0.9125,
+      "precision": 0.9230769230769231,
+      "specificity": 0.925,
+      "sensitivity": 0.9,
+      "tp": 36,
+      "tn": 37,
+      "fp": 3,
+      "fn": 4,
+      "auc_roc": 0.9793750000000001,
+      "auc_pr": 0.9819497928762219,
+      "run": 0,
+      "seed": 42,
+      "best_val_loss": 0.12021788954734802,
+      "epochs_run": 29
+    },
+    {
+      "accuracy": 0.9125,
+      "precision": 0.9024390243902439,
+      "specificity": 0.9,
+      "sensitivity": 0.925,
+      "tp": 37,
+      "tn": 36,
+      "fp": 4,
+      "fn": 3,
+      "auc_roc": 0.9756250000000001,
+      "auc_pr": 0.9778005028272989,
+      "run": 1,
+      "seed": 43,
+      "best_val_loss": 0.12597227096557617,
+      "epochs_run": 23
+    },
+    {
+      "accuracy": 0.925,
+      "precision": 0.925,
+      "specificity": 0.925,
+      "sensitivity": 0.925,
+      "tp": 37,
+      "tn": 37,
+      "fp": 3,
+      "fn": 3,
+      "auc_roc": 0.9775,
+      "auc_pr": 0.9800578975337013,
+      "run": 2,
+      "seed": 44,
+      "best_val_loss": 0.14587624371051788,
+      "epochs_run": 22
+    },
+    {
+      "accuracy": 0.9125,
+      "precision": 0.9230769230769231,
+      "specificity": 0.925,
+      "sensitivity": 0.9,
+      "tp": 36,
+      "tn": 37,
+      "fp": 3,
+      "fn": 4,
+      "auc_roc": 0.980625,
+      "auc_pr": 0.9826502758054392,
+      "run": 3,
+      "seed": 45,
+      "best_val_loss": 0.11862708628177643,
+      "epochs_run": 23
+    },
+    {
+      "accuracy": 0.925,
+      "precision": 0.925,
+      "specificity": 0.925,
+      "sensitivity": 0.925,
+      "tp": 37,
+      "tn": 37,
+      "fp": 3,
+      "fn": 3,
+      "auc_roc": 0.9756250000000001,
+      "auc_pr": 0.9768993442472069,
+      "run": 4,
+      "seed": 46,
+      "best_val_loss": 0.12567348778247833,
+      "epochs_run": 28
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "model": "SVM (RBF) on handcrafted features",
+  "n_features_total": 34,
+  "selected_features": [
+    "lin_zero_cross",
+    "lin_band_30_80",
+    "ang_peak_order",
+    "ang_coherence",
+    "ang_band_10_30"
+  ],
+  "best_params": {
+    "svc__C": 1.0,
+    "svc__gamma": "scale"
+  },
+  "cv_accuracy_fit_set": 0.9351061173533084,
+  "n_fit": 447,
+  "n_test": 80,
+  "test_metrics": {
+    "accuracy": 0.9125,
+    "precision": 0.9459459459459459,
+    "specificity": 0.95,
+    "sensitivity": 0.875,
+    "tp": 35,
+    "tn": 38,
+    "fp": 2,
+    "fn": 5,
+    "auc_roc": 0.9374999999999999,
+    "auc_pr": 0.9616737650242144
+  }
+}

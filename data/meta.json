@@ -1,0 +1,21 @@
+{
+  "synthetic": true,
+  "n": 527,
+  "n_impact": 264,
+  "fs_hz": 1000.0,
+  "n_points": 199,
+  "seed": 42,
+  "ambiguous_frac": 0.3,
+  "mix_range": [
+    0.5,
+    1.0
+  ],
+  "channels": [
+    "lin_acc_x",
+    "lin_acc_y",
+    "lin_acc_z",
+    "ang_vel_x",
+    "ang_vel_y",
+    "ang_vel_z"
+  ]
+}
